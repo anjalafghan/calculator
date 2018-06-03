@@ -6,29 +6,28 @@ final class basicVariables{
 
     private final float first;
     private final float second;
-    public int choice;
+    private int choice;
 
-    public basicVariables(float first, float second, int choice){
+    private basicVariables(float first, float second, int choice){
         this.first  = first;
         this.second = second;
         this.choice = choice;
     }
 
-    public float getFirst() {
+    float getFirst() {
         return first;
     }
 
-    public float getSecond() {
+    float getSecond() {
         return second;
     }
 
-    public int getChoice() {
+    int getChoice() {
         return choice;
     }
 
-    public static basicVariables getVariables(){
+    static basicVariables getVariables(){
         Scanner reader  = new Scanner(System.in);
-
         System.out.println("Enter first value");
         float first     = reader.nextFloat();
         System.out.println("Enter second value");
