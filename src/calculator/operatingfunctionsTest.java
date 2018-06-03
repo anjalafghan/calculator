@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class calculationsTest {
+public class operatingfunctionsTest {
     private float a = 10, b = 15, c,d ;
     @Test
     public void add() {
@@ -14,7 +14,7 @@ public class calculationsTest {
 
     @Test
     public void sub() {
-        c = a - b;
+
         d = b -a;
         assertEquals(c, -5.0,0.3);
         assertEquals(d,5.0,0.3);
@@ -31,4 +31,7 @@ public class calculationsTest {
         a = a * b;
         assertEquals(a, 150.0,0.3);
     }
+
+
+
 }

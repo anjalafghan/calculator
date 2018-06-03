@@ -3,7 +3,6 @@ package calculator;
 import java.util.Scanner;
 
 final class basicVariables{
-
     private final float first;
     private final float second;
     private int choice;
@@ -28,6 +27,7 @@ final class basicVariables{
 
     static basicVariables getVariables(){
         Scanner reader  = new Scanner(System.in);
+
         System.out.println("Enter first value");
         float first     = reader.nextFloat();
         System.out.println("Enter second value");
